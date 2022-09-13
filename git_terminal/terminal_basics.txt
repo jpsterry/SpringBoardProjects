@@ -1,0 +1,35 @@
+mkdir first
+cd /first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -R second
+
+-----------------------------
+pt. 2 
+-----------------------------
+
+man loads the man pages which are instructions on the passed command
+control d to advance control u/b to go back
+
+the -l flag is the long list format and -a displays all files
+
+control arrow keys
+
+control e
+
+control a
+
+control delete
+
+the terminal is the text interface we use, the shell is the execution environment
+
+an absolute path is directions from the root dir
+
+a relative path is directions relative to the current dir
+
+a flag is a way of passing in extra commands into an operation ex. -a for all files, -r for recursive removal, -f for forced removal
+
+-r removes every file in a folder recursively then it deletes the folder.  -f will force remove the file and ignore any non-existent files without displaying a prompt

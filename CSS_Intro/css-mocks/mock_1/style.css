@@ -1,0 +1,19 @@
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 60px;
+    height: 20px;
+}
+
+button:hover {
+    background-color: navy;
+    cursor: pointer;
+
+}
+
+button:active {
+    width: 61px;
+    height: 21px;
+}
