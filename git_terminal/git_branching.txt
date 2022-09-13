@@ -1,5 +1,0 @@
-git branch
-fast forwards work if the master is unchanged.
-git checkout
-git branch -D
-conflicts happen when there are different commits to the same file and git does not know which commit to keep
