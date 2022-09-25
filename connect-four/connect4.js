@@ -69,12 +69,11 @@ function findSpotForCol(x) {
 
   if (board[HEIGHT - 1][x] === undefined) return HEIGHT - 1
 
-  for (let row = 0; row < HEIGHT; row++) {
-    if (board[row][x] === undefined) {
+  for (let row = 1; row < HEIGHT - 1; row++) {
+    if (board[row][x] !== undefined) {
 
-    }
-    else {
       return row - 1
+
     }
   }
 
